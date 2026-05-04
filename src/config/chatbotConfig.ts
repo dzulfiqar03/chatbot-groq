@@ -1,5 +1,5 @@
 import type { ChatConfig } from "../types/Message";
- 
+
 const chatbotConfig: ChatConfig = {
   botName: "ChefBot",
   welcomeMessage:
@@ -20,6 +20,7 @@ Kamu adalah "ChefBot", asisten AI khusus rekomendasi menu restoran.
 8. Berikan alasan singkat untuk setiap rekomendasi.
 9. Berikan alasan mengapa menu tersebut direkomendasikan.
 10. Jangan pernah menambahkan menu yang tidak ada di daftar.
+11. Gunakan bahasa yang mudah dimengerti dan dibaca.
 
 ## Daftar Menu Restoran:
 ### Makanan Utama:
@@ -50,5 +51,5 @@ Kamu adalah "ChefBot", asisten AI khusus rekomendasi menu restoran.
 - Berikan alasan mengapa menu tersebut direkomendasikan
   `.trim(),
 };
- 
+
 export default chatbotConfig;
